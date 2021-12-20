@@ -1,0 +1,46 @@
+.site {
+    max-width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+
+body {
+    /*via https://cssgradient.io/*/
+    background: rgb(21,17,84);
+    background: linear-gradient(90deg, rgb(0, 141, 42) 0%, rgb(0, 107, 36) 6%, rgb(0, 184, 107) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+  }
+
+  h1{
+      color: white;
+  }
+  h2{
+      color: white;
+  }
+  h3{
+    color: white;
+}
+  p{
+      color: white;
+  }
+  li{
+      color: white;
+  }
+  a{
+      color: green;
+  }
+  button{
+    width: 70px;
+    height: 30px;
+  }
+
+  #flex{
+    display: flex;
+  }
+  .flexchild{
+    flex: 1;
+  }
+
+  
